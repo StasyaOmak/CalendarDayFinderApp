@@ -15,6 +15,6 @@
 - **Custom Icons**: Custom icons have been designed to enhance the visual appeal of the application.
 
 - **Launch Screen**: A Launch Screen is included to provide a polished startup experience.
-- 
+
 
 ![Simulator Screen Recording - iPhone SE (3rd generation) - 2023-10-24 at 17 18 55 (1)](https://github.com/StasyaOmak/CalendarDayFinderApp/assets/127408467/34641b7f-ae8e-48e9-86fa-5929a75a06b0)
