@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Hgs-FS-n3n">
-    <device id="retina6_7" orientation="portrait" appearance="dark"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -139,11 +139,13 @@
                     </view>
                     <navigationItem key="navigationItem" title="Day Finder" id="XgI-nS-Bl0">
                         <barButtonItem key="leftBarButtonItem" image="info.circle.fill" catalog="system" id="hgN-r2-ZYZ">
+                            <color key="tintColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="b03-Ih-Axj" kind="show" identifier="info " id="I0O-Gb-PtQ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="moon.stars.circle.fill" catalog="system" id="Yad-iM-1QX">
+                            <color key="tintColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="NhT-qE-Ynx" kind="presentation" id="lxT-ye-Loq"/>
                             </connections>
@@ -273,6 +275,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="closeButton" destination="YcO-p2-VZb" id="HPR-1F-Glv"/>
+                        <outlet property="settingButton" destination="2Pb-q3-AXr" id="NMg-6t-QNz"/>
                         <outlet property="textLabel" destination="ctb-yv-VTZ" id="bLo-BX-QOp"/>
                     </connections>
                 </viewController>
