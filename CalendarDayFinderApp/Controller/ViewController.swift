@@ -94,9 +94,9 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if segue.identifier == "info" {
-            guard let vc = segue.destination as? InfoViewController else { return }
-            vc.info = "Day of the week is: "
-            vc.desc = resultLabel.text ?? "Unknown"
+            guard let info = segue.destination as? InfoViewController else { return }
+            info.info = "Day of the week is: "
+            info.desc = resultLabel.text ?? "Unknown"
         }
     }
 }

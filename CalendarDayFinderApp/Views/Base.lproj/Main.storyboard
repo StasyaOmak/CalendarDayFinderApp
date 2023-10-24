@@ -141,13 +141,13 @@
                         <barButtonItem key="leftBarButtonItem" image="info.circle.fill" catalog="system" id="hgN-r2-ZYZ">
                             <color key="tintColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
-                                <segue destination="b03-Ih-Axj" kind="show" identifier="info " id="I0O-Gb-PtQ"/>
+                                <segue destination="b03-Ih-Axj" kind="show" identifier="info" id="I0O-Gb-PtQ"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="moon.stars.circle.fill" catalog="system" id="Yad-iM-1QX">
                             <color key="tintColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
-                                <segue destination="NhT-qE-Ynx" kind="presentation" id="lxT-ye-Loq"/>
+                                <segue destination="NhT-qE-Ynx" kind="presentation" identifier="" id="lxT-ye-Loq"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
