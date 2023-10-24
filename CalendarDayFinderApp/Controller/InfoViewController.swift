@@ -8,16 +8,24 @@
 import UIKit
 
 class InfoViewController: UIViewController {
-
+    
     @IBOutlet weak var appDescLabel: UILabel!
     @IBOutlet weak var appInfoLabel: UILabel!
+    
+    
+    
     var info: String?
+    var desc: String?
+    
+  
+    
+#warning("assigned value to labels")
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        #warning("assigned value to labels")
-
-        // Do any additional setup after loading the view.
+        if let info = info, let desc = desc {
+            appInfoLabel.text = info
+            appDescLabel.text = desc
+        }
     }
-    
 }

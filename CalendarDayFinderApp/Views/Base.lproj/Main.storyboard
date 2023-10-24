@@ -98,7 +98,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-89-R3p">
                                         <rect key="frame" x="96.666666666666657" y="250.00000000000003" width="135" height="73.333333333333343"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thz-Ph-pA3">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thz-Ph-pA3">
                                                 <rect key="frame" x="0.0" y="0.0" width="135" height="20.333333333333332"/>
                                                 <color key="backgroundColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -153,6 +153,10 @@
                     </navigationItem>
                     <connections>
                         <outlet property="dayTextFiled" destination="Qz8-zc-jO7" id="BIb-iA-EZc"/>
+                        <outlet property="findButton" destination="X6q-F8-rLM" id="h6n-mU-TfF"/>
+                        <outlet property="monthTextFiled" destination="lZS-Di-A4U" id="4FX-sl-ipl"/>
+                        <outlet property="resultLabel" destination="Thz-Ph-pA3" id="ud1-6R-GIf"/>
+                        <outlet property="yearTextFiled" destination="6dS-ps-Ehz" id="81Y-OK-pqb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
