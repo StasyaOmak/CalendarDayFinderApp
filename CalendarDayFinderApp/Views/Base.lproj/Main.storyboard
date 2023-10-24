@@ -20,16 +20,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="49" translatesAutoresizingMaskIntoConstraints="NO" id="m30-Ni-EH9">
-                                <rect key="frame" x="50" y="198.99999999999997" width="328" height="323.33333333333326"/>
+                                <rect key="frame" x="50" y="199" width="328" height="327"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check Your Day" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRW-ID-XnO">
-                                        <rect key="frame" x="103.66666666666666" y="0.0" width="121" height="40"/>
+                                        <rect key="frame" x="64" y="0.0" width="200" height="40"/>
                                         <color key="backgroundColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074503311255" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="121" id="qgD-zN-6kH"/>
+                                            <constraint firstAttribute="width" constant="200" id="qgD-zN-6kH"/>
                                             <constraint firstAttribute="height" constant="40" id="sMm-b1-GxJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -96,26 +96,32 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uNV-89-R3p">
-                                        <rect key="frame" x="96.666666666666657" y="250.00000000000003" width="135" height="73.333333333333343"/>
+                                        <rect key="frame" x="96.666666666666657" y="250" width="135" height="77"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thz-Ph-pA3">
-                                                <rect key="frame" x="0.0" y="0.0" width="135" height="20.333333333333332"/>
-                                                <color key="backgroundColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="135" height="24"/>
+                                                <color key="backgroundColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6q-F8-rLM">
-                                                <rect key="frame" x="0.0" y="28.333333333333314" width="135" height="45"/>
+                                                <rect key="frame" x="0.0" y="32" width="135" height="45"/>
                                                 <color key="backgroundColor" red="0.56078433989999998" green="0.62352943419999995" blue="0.60784316059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="03Y-3f-0OC"/>
                                                     <constraint firstAttribute="width" constant="135" id="bif-Oc-tMg"/>
                                                 </constraints>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Find">
-                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
-                                                </buttonConfiguration>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Find">
+                                                    <color key="titleColor" systemColor="labelColor"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="findButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="waB-H6-PIc"/>
                                                 </connections>
@@ -224,17 +230,18 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="xlD-7Z-InW">
-                                <rect key="frame" x="149.33333333333331" y="417.33333333333331" width="129.33333333333331" height="81.666666666666686"/>
+                                <rect key="frame" x="122.66666666666667" y="412.33333333333331" width="182.66666666666663" height="91.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Mode is On" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctb-yv-VTZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="129.33333333333334" height="20.333333333333332"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="182.66666666666666" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Pb-q3-AXr">
-                                        <rect key="frame" x="0.0" y="47.333333333333371" width="129.33333333333334" height="34.333333333333343"/>
-                                        <color key="backgroundColor" red="1" green="0.77647058820000003" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <rect key="frame" x="0.0" y="57" width="182.66666666666666" height="34.333333333333343"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Settings"/>
                                         <userDefinedRuntimeAttributes>
@@ -250,12 +257,12 @@
                             </stackView>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="close" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YcO-p2-VZb">
                                 <rect key="frame" x="355" y="40" width="40" height="40"/>
-                                <color key="backgroundColor" red="1" green="0.77647058820000003" blue="0.67450980390000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.78431367870000002" blue="0.59607845540000004" alpha="0.72770074500000004" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="SQp-I0-EXw"/>
                                     <constraint firstAttribute="width" constant="40" id="UcH-01-hdn"/>
                                 </constraints>
-                                <color key="tintColor" red="0.47058823529999999" green="0.5450980392" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <buttonConfiguration key="configuration" style="plain">
                                     <attributedString key="attributedSubtitle"/>
                                 </buttonConfiguration>
