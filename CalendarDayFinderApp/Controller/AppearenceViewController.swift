@@ -26,7 +26,7 @@ class AppearenceViewController: UIViewController {
 #warning("Open iOS simulator setting app, UIApplication")
     
     @IBAction func openSettings(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "App-prefs:Bluetooth")!)
+        UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
     }
     
 #warning("Light Mode is On to Dark Mode is On")

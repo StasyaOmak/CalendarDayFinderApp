@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "en_EN")
-        dateFormatter.dateFormat = "EEEE"
+        dateFormatter.dateFormat = "EEEE, MMM d, yyyy"
         
         switch findButton.titleLabel?.text {
         case "Find":
