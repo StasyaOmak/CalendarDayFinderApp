@@ -27,6 +27,7 @@ class AppearenceViewController: UIViewController {
     
     @IBAction func openSettings(_ sender: Any) {
         UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
+        
     }
     
 #warning("Light Mode is On to Dark Mode is On")
